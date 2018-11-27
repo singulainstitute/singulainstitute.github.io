@@ -1,0 +1,746 @@
+/*2.17 Responsive Css*/
+@media only screen and (min-width: 1601px) and (max-width: 1900px) {
+
+    /**
+*
+*  home page tow
+*/
+    .site-header.header2 .top-header .top-message li {
+        padding: 0 10px;
+    }
+
+    .site-header.header2 .top-header .top-message {
+        margin-right: -10px;
+    }
+
+    .ace-banner.aceshape-banner {
+        height: 800px;
+    }
+
+    .ace-banner.aceshape-banner .ace-bn-height {
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .aceSingleServices {
+        min-height: 400px;
+    }
+
+    .container-fluid.ace-container {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .acecasestudyparent .single-case-study .case-study-text {
+        padding: 50px;
+    }
+
+    .site-header.header2 .top-header .top-message li {
+        padding: 0 9px;
+    }
+
+    .site-header.header2 .top-header:after {
+        width: 83%;
+    }
+
+    .ace_slider_active .owl-dots {
+        left: 20px;
+    }
+
+    .ace_singlePotPortfolio:after {
+        width: 250px;
+        height: 250px;
+    }
+
+    .singleTbox:hover:after {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .singleHexaTeam .tem-promo {
+        left: auto;
+        right: 15px;
+        top: 50px;
+    }
+
+    .singleHexaTeam:hover .tem-promo {
+        left: auto;
+        right: 0;
+    }
+
+    .dakbox-bg:after {
+        width: 183px;
+        height: 163px;
+    }
+
+    .site-header.header2 .top-header .top-message {
+        margin-right: -9px;
+    }
+
+    .ace-banner.aceshape-banner {
+        height: 800px;
+    }
+
+    .ace-banner.aceshape-banner .ace-bn-height {
+        height: 800px;
+    }
+
+    .logo-bgshpe {
+        height: 300px;
+        width: 300px;
+        top: -161px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .main-menu ul li a {
+        padding: 0 5px;
+    }
+
+    .aceOffcancvas {
+        margin-left: 10px;
+    }
+
+    .counter-parent .singleacecounter h3 {
+        font-size: 20px;
+    }
+
+    .testtimonilas-shape {
+        width: 56%;
+        height: 1010px;
+    }
+
+    .site-header.header2 .top-header:after {
+        width: 98%;
+    }
+
+    .ace_slider_active .owl-dots {
+        left: 50%;
+        top: auto;
+        bottom: 30px;
+    }
+
+    .ace_slider_active .owl-dot {
+        display: inline-block;
+        margin: 0 5px 20px;
+    }
+
+    .ace_singlePotPortfolio:after {
+        height: 200px;
+        width: 200px;
+    }
+
+    .ace-testimonials-version2 {
+        height: auto;
+        padding: 100px 0px 100px;
+    }
+
+    .ace-testimonials-version2 .ace-tes-height {
+        height: auto;
+    }
+
+    .singleTbox {
+        margin-bottom: 0px;
+    }
+
+    .singleHexaTeam:nth-child(2) {
+        right: 0px;
+    }
+
+    .dakbox-bg:after {
+        width: 150px;
+        height: 110px;
+    }
+
+    .aceshapaebanner {
+        height: 600px;
+        top: -70px;
+        width: 600px;
+    }
+
+    .banner-content.version3 {
+        padding-top: 100px;
+    }
+
+    .banner-content.version3 h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .logo-bgshpe {
+        height: 200px;
+        width: 200px;
+        top: -59px;
+        left: 6px;
+    }
+
+    .ace-banner.aceshape-banner {
+        height: 600px;
+    }
+
+    .ace-banner.aceshape-banner .ace-bn-height {
+        height: 600px;
+    }
+
+    .single-values h3 {
+        font-size: 25px;
+    }
+
+    .single-values:after {
+        display: none;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .top-message {
+        margin-left: -3px;
+    }
+
+    .top-message li {
+        padding: 0 3px;
+    }
+
+    .ace-banner .banner-content h2 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .ace-history {
+        padding: 50px 0;
+    }
+
+    .ace-services {
+        padding: 0 0 20px;
+    }
+
+    .aceSingleServices {
+        min-height: 400px;
+        margin-bottom: 30px;
+    }
+
+    .acecasestudyparent .single-case-study .case-study-text {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 50px 50px 50px;
+    }
+
+    .acecasestudyparent .single-case-study .case-study-bg {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: 350px;
+    }
+
+    .casClick {
+        left: 50px;
+        -webkit-transform: none;
+        transform: none;
+    }
+
+    .casestudytab.nav {
+        left: 50px;
+        bottom: 50px;
+        -webkit-transform: none;
+        transform: none;
+    }
+
+    .ace-portfolio {
+        padding: 50px 0;
+    }
+
+    .portfolioitem {
+        padding: 50px 0;
+    }
+
+    .portfolioparent .aceSinglePortfilo {
+        -webkit-box-flex: 32.33%;
+        -ms-flex: 32.33%;
+        flex: 32.33%;
+        max-width: 32.33%;
+    }
+
+    .ace-calltoaction h3 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .ace-calltoaction h4 {
+        font-size: 20px;
+        margin: 0 0 30px;
+    }
+
+    .mb-100 {
+        margin-bottom: 50px;
+    }
+
+    .counter-parent .singleacecounter {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.33%;
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        margin-bottom: 30px;
+    }
+
+    .counter-parent .singleacecounter:nth-child(4),
+    .counter-parent .singleacecounter:nth-child(5) {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .ace-counterup {
+        padding: 50px 0px 20px;
+    }
+
+    .ace-teammember {
+        padding: 0 0 20px;
+    }
+
+    .testtimonilas-shape {
+        height: 1123px;
+    }
+
+    .section-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .ace-blog {
+        padding: 0 0 50px;
+    }
+
+    .subscribe-box,
+    .subbox-height {
+        height: 300px;
+    }
+
+    .single-footer {
+        margin-bottom: 30px;
+    }
+
+    footer.site-footer {
+        padding: 50px 0 10px;
+    }
+
+    .ace-whoweare {
+        padding: 0 0 50px;
+    }
+
+    .historyList-active {
+        margin-bottom: 30px;
+    }
+
+    .historyList-active .owl-nav div {
+        left: -17px;
+    }
+
+    .singleTbox {
+        height: 350px;
+        width: 350px;
+    }
+
+    .singleTbox:hover:after {
+        -webkit-transform: none;
+        transform: none;
+    }
+
+    .aceHexaTeam {
+        height: 920px;
+    }
+
+    .singleHexaTeam {
+        height: 180px;
+        width: 180px;
+    }
+
+    .singleHexaTeam .tem-promo {
+        right: 11px;
+        top: 43px;
+    }
+
+    .dakbox-bg:after {
+        display: none;
+    }
+
+    .site-footer2 {
+        padding: 50px 0 20px;
+    }
+
+    .ace-testimonials-version2 {
+        padding: 100px 0 50px;
+    }
+
+    .singleblog2 {
+        margin-bottom: 30px;
+    }
+
+    .site-header.header2 .top-header:after {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .banner-content.version3 h2 {
+        font-size: 40px;
+        margin: 0 0 20px;
+        line-height: 50px;
+    }
+
+    .banner-content.version3 p {
+        display: none;
+    }
+
+    .abouthexarea .history-text {
+        margin-top: 0px;
+    }
+
+    .testimonials-section3 {
+        padding: 0 0 50px;
+    }
+
+    .Ace-valuses {
+        padding: 50px 0 20px;
+    }
+
+    .site-header .btn,
+    .site-header .single-blog-post a.blg-link,
+    .single-blog-post .site-header a.blg-link {
+        padding: 0px 5px;
+        border-radius: 3px !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .site-header .logo img {
+        height: 42px;
+    }
+
+    .ace-banner .banner-content h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .ace-banner .banner-content h3 {
+        font-size: 18px;
+        margin: 0 0 15px;
+    }
+
+    .ace-banner .banner-content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .ace-banner .banner-content a {
+        margin: 5px;
+    }
+
+    .ace-banner .banner-content.version3 p {
+        display: block;
+    }
+
+    .ace-banner .banner-content.version3 h2,
+    .ace-banner .banner-content.version3 p {
+        color: #fff;
+    }
+
+    .logo-bgshpe {
+        height: 150px;
+        width: 150px;
+        top: -33px;
+        left: 1px;
+    }
+
+    .ace-banner,
+    .ace-bn-height {
+        height: 450px;
+    }
+
+    .ace-banner.aceshape-banner .ace-bn-height {
+        height: 500px;
+    }
+
+    .aceshapaebanner {
+        right: 0;
+        top: 0;
+        height: 500px;
+        width: 100%;
+        -webkit-mask: unset;
+        mask: unset;
+    }
+
+    .aceshapaebanner:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+        background: #000;
+        opacity: 0.4;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+        filter: alpha(opacity=40);
+    }
+
+    .ace-banner.aceshape-banner {
+        height: 500px;
+    }
+
+    .history-text {
+        margin-top: 30px;
+    }
+
+    .ace-sidnav {
+        width: 350px;
+    }
+
+    .section-shape-1:after {
+        width: 350px;
+    }
+
+    .portfolioparent .aceSinglePortfilo {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .ace-calltoaction h3 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .ace-calltoaction h4 {
+        font-size: 18px;
+    }
+
+    .actionbg {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .counter-parent .singleacecounter {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .counter-parent .singleacecounter:nth-child(4),
+    .counter-parent .singleacecounter:nth-child(5) {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .testimonils-img img,
+    .testtimonilas-shape {
+        display: none !important;
+    }
+
+    .ace-testimonials {
+        padding: 0 0 50px;
+    }
+
+    .testimonilas-pb {
+        padding: 0px;
+    }
+
+    .testimonails-text br {
+        display: none;
+    }
+
+    .testimonials_active .owl-nav div {
+        left: auto;
+        bottom: 0px;
+        right: 15px;
+    }
+
+    .testimonials_active .owl-nav div.owl-next {
+        margin-right: 35px;
+        margin-left: 0px;
+    }
+
+    .testimonails-text img {
+        height: 100px;
+        position: absolute;
+        left: 0px;
+        z-index: -1;
+        display: block !important;
+    }
+
+    .testimonails-text h4 {
+        font-size: 18px;
+    }
+
+    .testimonails-text h5 {
+        font-size: 14px;
+    }
+
+    .subscribe-box .section-title,
+    .subscribe-box .aceSingleServices h3,
+    .aceSingleServices .subscribe-box h3,
+    .subscribe-box .aceSingleServices h3,
+    .aceSingleServices .subscribe-box h3 {
+        font-size: 24px;
+    }
+
+    .single-blog-post .blog-text h3 {
+        font-size: 17px;
+    }
+
+    .site-header.header2 .top-header .top-message li:after {
+        display: none;
+    }
+
+    .ace-banner.ace-slider {
+        height: 500px;
+    }
+
+    .site-header.fixed-header {
+        position: static !important;
+    }
+
+    .site-header.fixed-header.header3 {
+        position: absolute !important;
+    }
+
+    .ace-banner.ace-slider .ace-bn-height {
+        height: 500px;
+    }
+
+    .aceSingleServices.services-version-2 {
+        padding: 0 20px;
+    }
+
+    .ace-whoweare .history-text {
+        margin-top: 0px;
+    }
+
+    .ace_singlePotPortfolio:after {
+        height: 250px;
+        width: 250px;
+    }
+
+    .singleTbox {
+        margin-bottom: 70px;
+    }
+
+    .ace-testimonials-version2 {
+        padding: 100px 0 0px;
+    }
+
+    .site-header.header2 .top-header .top-message li {
+        padding: 0 2px;
+    }
+
+    .site-header.header2 .top-header .top-message {
+        margin-right: -2px;
+    }
+
+    .singleHexaTeam:nth-child(2) {
+        top: 0;
+    }
+
+    .singleHexaTeam:nth-child(4) {
+        top: 300px;
+    }
+
+    .singleHexaTeam:nth-child(6) {
+        top: 300px;
+    }
+
+    .singleHexaTeam:nth-child(5) {
+        margin-left: 0px;
+        top: 456px;
+    }
+
+    .singleHexaTeam:hover .tem-promo {
+        height: 160px;
+        width: 160px;
+        z-index: 99999;
+    }
+
+    .subscribe-box.light-version .section-title,
+    .subscribe-box.light-version .aceSingleServices h3,
+    .aceSingleServices .subscribe-box.light-version h3,
+    .subscribe-box.light-version .aceSingleServices h3,
+    .aceSingleServices .subscribe-box.light-version h3 {
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    .subscribe-box h5 {
+        font-size: 16px;
+    }
+
+    .testextraicon i {
+        font-size: 30px;
+        top: -15px;
+    }
+
+    .media.single-comments img {
+        height: 40px;
+    }
+
+    .aceSinglesidebar .sidebar-title {
+        font-size: 20px;
+        margin: 0 0 15px;
+    }
+
+    .comments-section .media.single-comments h5 span {
+        padding-left: 0px;
+    }
+
+    .filter-list button {
+        margin-bottom: 8px;
+    }
+
+    .acecasestudyparent .case-study-text {
+        padding: 15px !important;
+    }
+
+    .acecasestudyparent .case-study-text .btn,
+    .acecasestudyparent .case-study-text .single-blog-post a.blg-link,
+    .single-blog-post .acecasestudyparent .case-study-text a.blg-link {
+        margin: 5px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .portfolioparent .aceSinglePortfilo {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 49%;
+        flex: 0 0 49%;
+        max-width: 49%;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .counter-parent .singleacecounter {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .counter-parent .singleacecounter:nth-child(4),
+    .counter-parent .singleacecounter:nth-child(5) {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .instagallery li {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.66%;
+        flex: 0 0 16.66%;
+        max-width: 16.66%;
+    }
+}
