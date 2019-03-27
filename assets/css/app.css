@@ -3346,15 +3346,15 @@ body.sidenavOpen {
     text-transform: capitalize;
     color: #3f3f3f;
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .singtle-teammemebr span.teamposition {
-    display: inline-block;
-    border-radius: 999px;
-    border: 1px solid #666;
-    padding: 8px 35px;
+    margin-top: -10px;
+    font-size: 16px;
+    font-weight: 300;
     color: #666;
+    margin-bottom: 10px;
 }
 
 .singtle-teammemebr .team-footer {
@@ -3435,10 +3435,7 @@ body.sidenavOpen {
     border: 1px solid #eee;
 }
 
-.singtle-teammemebr:hover img {
-    -webkit-animation: jackInTheBox 600ms ease-in-out;
-    animation: jackInTheBox 600ms ease-in-out;
-}
+
 
 .aceHexaTeam {
     height: 1018px;
