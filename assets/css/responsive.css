@@ -787,3 +787,18 @@
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #fff;}
+
+  
+  .navbar-custom {
+    background-color: #ff5500;
+}
+
+.navbar {
+    position: relative;
+}
+.brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
