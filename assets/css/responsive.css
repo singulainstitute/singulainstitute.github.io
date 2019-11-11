@@ -788,10 +788,8 @@
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #fff;}
 
-  
-  .navbar-custom {
-    background-color: #ff5500;
-}
+ 
+/* change brand header position*/  
 
 .navbar {
     position: relative;
@@ -802,3 +800,11 @@
     margin-left: -50px !important;  /* 50% of your logo width */
     display: block;
 }
+
+.top-header {
+    padding: 60px;
+    text-align: center;
+    background: #fff;
+    color: white;
+    font-size: 30px;
+  }
