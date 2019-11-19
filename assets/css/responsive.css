@@ -780,7 +780,7 @@
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-menu a:hover {background-color: #ddd;}
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
@@ -808,3 +808,15 @@
     color: white;
     font-size: 30px;
   }
+
+  a.normal {
+    font-weight: normal;
+  }
+  
+  a.thick {
+    font-weight: bold;
+  }
+  
+  a.thicker {
+    font-weight: 900;
+  } 
