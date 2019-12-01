@@ -5,6 +5,8 @@
 *
 *  home page tow
 */
+@import "bootstrap";
+
     .site-header.header2 .top-header .top-message li {
         padding: 0 10px;
     }
@@ -820,3 +822,8 @@
   a.thicker {
     font-weight: 900;
   } 
+
+  .btn-primary {
+    background-color: rgb(108, 90, 214) !important;
+    border-color: rgb(108, 90, 214)  !important;
+}
