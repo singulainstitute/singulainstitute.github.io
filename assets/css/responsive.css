@@ -823,7 +823,12 @@
     font-weight: 900;
   } 
 
-  .btn-primary {
-    background-color: rgb(108, 90, 214) !important;
-    border-color: rgb(108, 90, 214)  !important;
-}
+
+/* .btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: rgb(108, 90, 214)  !important;
+    border-color:  rgb(108, 90, 214) !important;
+} */
