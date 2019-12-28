@@ -85,7 +85,8 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col">
-                                    <li><a role="button" style="background-color:rgb(108, 90, 214); color:white" href="donate.html" class=" btn btn-xs col-lg-12">DONATE</a></li>   
+                                    <li><a role="button" style="background-color:rgb(108, 90, 214); color:white" data-toggle="modal" data-target="#myModal"class=" btn btn-xs col-lg-12">DONATE</a></li>   
+                                  
                                 </div>
                             </div>
                         </div>
@@ -94,6 +95,34 @@
             </div>
         </nav> 
     </div>
+
+    <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+                    <h2 class="modal-title">Donate</h2>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Donate with Paypal</p>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick" />
+                        <input type="hidden" name="hosted_button_id" value="AND4UFWHXSNFC" />
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                    </form>   
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
     <!-- end top header -->
     <!-- start main header -->
     <nav class="navbar navbar-expand-lg navbar-static-top navbar-light">
@@ -150,9 +179,14 @@
                         </div>
                     </li>
                     <li class="nav-item active">
+                        <a class="thick nav-link"  href="">Financials</a>
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
                         <a class="thick nav-link"  href="mailto:marc.lener@singulainstitute.org">Contact Us</a>
                             <!-- About Us  -->
-                            <span class="sr-only">(current)</span>
+                            <span class="sr-only"></span>
                         </a>
                     </li>
                     <!-- <li class="nav-item active">
@@ -349,16 +383,7 @@ Footer Start Here
                     </div>
                 </div>
                 <!-- end single footer -->
-                <!-- <div class="col-lg-3 col-md-6 col-12">
-                    <div class="single-footer">
-                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                            <input type="hidden" name="cmd" value="_s-xclick" />
-                            <input type="hidden" name="hosted_button_id" value="AND4UFWHXSNFC" />
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                        </form>
-                    </div>
-                </div> -->
+               
             </div>
         </div>
     </footer>
